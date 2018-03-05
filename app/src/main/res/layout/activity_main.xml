@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.intagpc.autocompletetextveiw.MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoComplete"
+        android:hint="AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MultiAutoComplete"
+        android:layout_below="@+id/autoComplete"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
